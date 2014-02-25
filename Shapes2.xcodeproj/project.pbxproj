@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9F3C6218BB14210080F3A8 /* CircleClass+Sphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3C6118BB14210080F3A8 /* CircleClass+Sphere.m */; };
 		0AEBDAEC18B712D8004EF2B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEBDAEB18B712D8004EF2B7 /* Foundation.framework */; };
 		0AEBDAEF18B712D8004EF2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBDAEE18B712D8004EF2B7 /* main.m */; };
 		0AEBDAF318B712D8004EF2B7 /* Shapes2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AEBDAF218B712D8004EF2B7 /* Shapes2.1 */; };
+		0AEBDAFE18B713C8004EF2B7 /* CircleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBDAFD18B713C8004EF2B7 /* CircleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A9F3C6018BB14210080F3A8 /* CircleClass+Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CircleClass+Sphere.h"; sourceTree = "<group>"; };
+		0A9F3C6118BB14210080F3A8 /* CircleClass+Sphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CircleClass+Sphere.m"; sourceTree = "<group>"; };
 		0AEBDAE818B712D8004EF2B7 /* Shapes2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Shapes2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBDAEB18B712D8004EF2B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AEBDAEE18B712D8004EF2B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AEBDAF118B712D8004EF2B7 /* Shapes2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shapes2-Prefix.pch"; sourceTree = "<group>"; };
 		0AEBDAF218B712D8004EF2B7 /* Shapes2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Shapes2.1; sourceTree = "<group>"; };
+		0AEBDAFC18B713C8004EF2B7 /* CircleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleClass.h; sourceTree = "<group>"; };
+		0AEBDAFD18B713C8004EF2B7 /* CircleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				0AEBDAF118B712D8004EF2B7 /* Shapes2-Prefix.pch */,
+				0AEBDAFC18B713C8004EF2B7 /* CircleClass.h */,
+				0AEBDAFD18B713C8004EF2B7 /* CircleClass.m */,
+				0A9F3C6018BB14210080F3A8 /* CircleClass+Sphere.h */,
+				0A9F3C6118BB14210080F3A8 /* CircleClass+Sphere.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9F3C6218BB14210080F3A8 /* CircleClass+Sphere.m in Sources */,
+				0AEBDAFE18B713C8004EF2B7 /* CircleClass.m in Sources */,
 				0AEBDAEF18B712D8004EF2B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +263,7 @@
 				0AEBDAF818B712D8004EF2B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
